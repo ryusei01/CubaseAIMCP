@@ -1,0 +1,62 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# VST3 SDK (clone separately into third_party/vst3sdk)
+third_party/
+
+# CMake / MSVC build artifacts
+vst3_audio_tap/build/
+cmake-build-*/
+out/
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.aps
+*.ncb
+*.sbr
+*.pch
+
+# Built plugin bundles (install via scripts/build_vst3.ps1)
+*.vst3/
+
+# IDE / OS
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.swp
+*~

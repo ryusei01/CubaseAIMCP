@@ -1,0 +1,5 @@
+soundcard>=0.4.3
+numpy>=1.26.0
+scipy>=1.11.0
+pyloudnorm>=0.1.1
+openai>=1.40.0
